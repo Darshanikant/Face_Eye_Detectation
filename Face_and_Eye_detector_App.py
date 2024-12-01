@@ -40,7 +40,7 @@ This app uses Haar cascades for detecting:
 option = st.sidebar.radio("Choose Detection Mode:", ["Image Detection", "Webcam Detection"])
 
 # Load Haar cascades
-face_classifier = cv2.CascadeClassifier(r"C:\Users\sunil\DK\vs code\Deap Learning\Work\FACE AND EYE DETECTOR APP\haarcascade_frontalface_default.xml")
+face_classifier = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 eye_classifier = cv2.CascadeClassifier(r"C:\Users\sunil\DK\vs code\Deap Learning\Work\FACE AND EYE DETECTOR APP\haarcascade_eye.xml")
 
 # Check if cascade files are loaded
