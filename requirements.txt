@@ -2,5 +2,4 @@ streamlit
 opencv-python
 numpy
 Pillow
-libGL
-cv2
+
